@@ -17,21 +17,7 @@
         </select><button onClick="run()">GO!</button>
         <iframe id="return" href="about:blank">
         </iframe>
-        <script>
-            function run() {
-    var type = document.getElementById("select").value;
-    var report = document.getElementById("return");
-    var input = document.getElementById("input").value;
-    
-    if (type === "h") {
-        report.innerHTML = input;
-    } else if (type === "c") {
-        report.innerHTML = "<style>" + input + "</style>";
-    } else if (type === "j") {
-        report.innerHTML = "<script>" + input + "</script>";
-    }
-}
-        </script>
+        <script src="code.js" type="text/javascript" charset="utf-8"></script>
     </body>
 
 </html>
