@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+#input {
+    width: 100%;
+    height: 50%;
+    resize: none;
+    font-family: sans-serif;
+}
+#return {
+    width: 100%;
+    height: 40%;
+}
