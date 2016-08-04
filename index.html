@@ -18,8 +18,7 @@
         <iframe id="return" href="about:blank">
         </iframe>
         <script>
-            
-function run() {
+            function run() {
     var type = document.getElementById("select").value;
     var report = document.getElementById("return");
     var input = document.getElementById("input").value;
@@ -31,7 +30,8 @@ function run() {
     } else if (type === "j") {
         report.innerHTML = "<script>" + input + "</script>";
     }
-}</script>
+}
+        </script>
     </body>
 
 </html>
