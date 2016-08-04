@@ -13,7 +13,6 @@
         <select id="select">
             <option value="h">HTML</option>
             <option value="c">CSS</option>
-            <option value="j">JS</option>
         </select><button onClick="run()">GO!</button>
         <iframe id="return" href="about:blank">
         </iframe>
@@ -28,8 +27,6 @@
         report.innerHTML = input;
     } else if (type === "c") {
         report.innerHTML = "<style>" + input + "</style>";
-    } else if (type === "j") {
-        report.innerHTML = "<script>" + input + "</script>";
     }
 }
             
